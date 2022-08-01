@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="5dp"
+    app:cardCornerRadius="12dp"
+    app:cardElevation="3dp"
+    app:contentPadding="4dp"
+    android:id="@+id/card_view">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/constraintLayout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/dateConstraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <TextView
+                android:id="@+id/day_of_week"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textColor="@color/dark"
+                android:text="DayOfWeek"
+                android:textStyle="bold"
+                android:layout_marginLeft="16dp"
+                android:layout_marginVertical="10dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="16dp" />
+
+            <TextView
+                android:id="@+id/schedule_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?attr/textAppearanceListItem"
+                android:textColor="@color/dark"
+                android:text="Date"
+                android:layout_marginRight="16dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/scheduleConstraintLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/dateConstraintLayout"
+            android:background="@color/lightGray">
+
+            <TextView
+                android:id="@+id/lessonTime1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time1"
+                android:layout_marginLeft="20dp"
+                android:layout_marginVertical="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:id="@+id/lessonName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonName1"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintStart_toEndOf="@+id/lessonTime1"
+                app:layout_constraintTop_toTopOf="@+id/lessonTime1" />
+
+            <TextView
+                android:id="@+id/lessonType1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonType1"
+                app:layout_constraintStart_toStartOf="@+id/lessonName1"
+                app:layout_constraintTop_toBottomOf="@+id/lessonName1" />
+
+            <TextView
+                android:id="@+id/teacherName1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TeacherName1"
+                app:layout_constraintStart_toStartOf="@+id/lessonType1"
+                app:layout_constraintTop_toBottomOf="@+id/lessonType1" />
+
+            <TextView
+                android:id="@+id/lessonPlace1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonPlace1"
+                app:layout_constraintStart_toStartOf="@+id/teacherName1"
+                app:layout_constraintTop_toBottomOf="@+id/teacherName1" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/scheduleConstraintLayout2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/scheduleConstraintLayout1"
+            android:background="@color/lightGray">
+
+            <TextView
+                android:id="@+id/lessonTime2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time2"
+                android:layout_marginLeft="20dp"
+                android:layout_marginVertical="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:id="@+id/lessonName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonName2"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintStart_toEndOf="@+id/lessonTime2"
+                app:layout_constraintTop_toTopOf="@+id/lessonTime2" />
+
+            <TextView
+                android:id="@+id/lessonType2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonType2"
+                app:layout_constraintStart_toStartOf="@+id/lessonName2"
+                app:layout_constraintTop_toBottomOf="@+id/lessonName2" />
+
+            <TextView
+                android:id="@+id/teacherName2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TeacherName2"
+                app:layout_constraintStart_toStartOf="@+id/lessonType2"
+                app:layout_constraintTop_toBottomOf="@+id/lessonType2" />
+
+            <TextView
+                android:id="@+id/lessonPlace2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonPlace2"
+                app:layout_constraintStart_toStartOf="@+id/teacherName2"
+                app:layout_constraintTop_toBottomOf="@+id/teacherName2" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/scheduleConstraintLayout3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/scheduleConstraintLayout2"
+            android:background="@color/lightGray">
+
+            <TextView
+                android:id="@+id/lessonTime3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time3"
+                android:layout_marginLeft="20dp"
+                android:layout_marginVertical="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:id="@+id/lessonName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonName3"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintStart_toEndOf="@+id/lessonTime3"
+                app:layout_constraintTop_toTopOf="@+id/lessonTime3" />
+
+            <TextView
+                android:id="@+id/lessonType3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonType3"
+                app:layout_constraintStart_toStartOf="@+id/lessonName3"
+                app:layout_constraintTop_toBottomOf="@+id/lessonName3" />
+
+            <TextView
+                android:id="@+id/teacherName3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TeacherName3"
+                app:layout_constraintStart_toStartOf="@+id/lessonType3"
+                app:layout_constraintTop_toBottomOf="@+id/lessonType3" />
+
+            <TextView
+                android:id="@+id/lessonPlace3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonPlace3"
+                app:layout_constraintStart_toStartOf="@+id/teacherName3"
+                app:layout_constraintTop_toBottomOf="@+id/teacherName3" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/scheduleConstraintLayout4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/scheduleConstraintLayout3"
+            android:background="@color/lightGray">
+
+            <TextView
+                android:id="@+id/lessonTime4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time4"
+                android:layout_marginLeft="20dp"
+                android:layout_marginVertical="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:id="@+id/lessonName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonName4"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintStart_toEndOf="@+id/lessonTime4"
+                app:layout_constraintTop_toTopOf="@+id/lessonTime4" />
+
+            <TextView
+                android:id="@+id/lessonType4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonType4"
+                app:layout_constraintStart_toStartOf="@+id/lessonName4"
+                app:layout_constraintTop_toBottomOf="@+id/lessonName4" />
+
+            <TextView
+                android:id="@+id/teacherName4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TeacherName4"
+                app:layout_constraintStart_toStartOf="@+id/lessonType4"
+                app:layout_constraintTop_toBottomOf="@+id/lessonType4" />
+
+            <TextView
+                android:id="@+id/lessonPlace4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonPlace4"
+                app:layout_constraintStart_toStartOf="@+id/teacherName4"
+                app:layout_constraintTop_toBottomOf="@+id/teacherName4" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/scheduleConstraintLayout5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/scheduleConstraintLayout4"
+            android:background="@color/lightGray">
+
+            <TextView
+                android:id="@+id/lessonTime5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time5"
+                android:layout_marginLeft="20dp"
+                android:layout_marginVertical="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:id="@+id/lessonName5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonName5"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintStart_toEndOf="@+id/lessonTime5"
+                app:layout_constraintTop_toTopOf="@+id/lessonTime5" />
+
+            <TextView
+                android:id="@+id/lessonType5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonType5"
+                app:layout_constraintStart_toStartOf="@+id/lessonName5"
+                app:layout_constraintTop_toBottomOf="@+id/lessonName5" />
+
+            <TextView
+                android:id="@+id/teacherName5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TeacherName5"
+                app:layout_constraintStart_toStartOf="@+id/lessonType5"
+                app:layout_constraintTop_toBottomOf="@+id/lessonType5" />
+
+            <TextView
+                android:id="@+id/lessonPlace5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonPlace5"
+                app:layout_constraintStart_toStartOf="@+id/teacherName5"
+                app:layout_constraintTop_toBottomOf="@+id/teacherName5" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/scheduleConstraintLayout6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/scheduleConstraintLayout5"
+            android:background="@color/lightGray">
+
+            <TextView
+                android:id="@+id/lessonTime6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time6"
+                android:layout_marginLeft="20dp"
+                android:layout_marginVertical="10dp"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent"
+                android:layout_marginStart="20dp" />
+
+            <TextView
+                android:id="@+id/lessonName6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonName6"
+                android:textStyle="bold"
+                android:layout_marginLeft="20dp"
+                app:layout_constraintStart_toEndOf="@+id/lessonTime6"
+                app:layout_constraintTop_toTopOf="@+id/lessonTime6" />
+
+            <TextView
+                android:id="@+id/lessonType6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonType6"
+                app:layout_constraintStart_toStartOf="@+id/lessonName6"
+                app:layout_constraintTop_toBottomOf="@+id/lessonName6" />
+
+            <TextView
+                android:id="@+id/teacherName6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TeacherName6"
+                app:layout_constraintStart_toStartOf="@+id/lessonType6"
+                app:layout_constraintTop_toBottomOf="@+id/lessonType6" />
+
+            <TextView
+                android:id="@+id/lessonPlace6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LessonPlace6"
+                app:layout_constraintStart_toStartOf="@+id/teacherName6"
+                app:layout_constraintTop_toBottomOf="@+id/teacherName6" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.cardview.widget.CardView>

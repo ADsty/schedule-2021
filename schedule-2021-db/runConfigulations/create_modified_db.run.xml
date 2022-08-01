@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="create_modified_db" type="DatabaseScript">
+    <script-file value="$PROJECT_DIR$/create_db.sql" />
+    <script-file value="$PROJECT_DIR$/alter_db.sql" />
+    <script-mode>FILE</script-mode>
+    <data-source id="3230a42f-691d-45de-8c6f-69dae58a895a" />
+    <method v="2" />
+  </configuration>
+</component>

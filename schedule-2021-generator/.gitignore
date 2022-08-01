@@ -1,0 +1,9 @@
+.idea
+.gradle
+build
+local.properties
+settings.gradle
+generatedTables.json
+src/main/resources/db.properties
+src/main/kotlin/secret.kt
+#generation.log

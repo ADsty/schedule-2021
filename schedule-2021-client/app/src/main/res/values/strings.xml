@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">schedule-2021-android</string>
+    <string name="schedule">schedule</string>
+    <string name="deadlines">deadlines</string>
+    <string name="login_text">Логин</string>
+    <string name="password_text">Пароль</string>
+    <string name="login_button_text">Войти</string>
+    <string name="text_view1">Авторизация</string>
+    <string name="title">Заголовок</string>
+    <string name="description">Описание задания</string>
+    <string name="save">Сохранить</string>
+    <string name="date_editText">Дата дедлайна</string>
+    <string name="new_deadline">Добавить новый дедлайн</string>
+    <string name="add_new_deadline_btn">Добавить дедлайн</string>
+    <string name="current_week_parity">CurrentWeekParity</string>
+    <string name="week_dates_example">01.01.2021–08.01.2021</string>
+    <string name="register_btn">Зарегистрироваться</string>
+</resources>

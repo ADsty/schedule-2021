@@ -1,0 +1,414 @@
+<svg xmlns="http://www.w3.org/2000/svg" class="plt-container" width="1000.0" height="500.0">
+  <style type="text/css">
+  .plt-container {
+	font-family: "Lucida Grande", sans-serif;
+	cursor: crosshair;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+}
+.plt-backdrop {
+   fill: white;
+}
+.plt-transparent .plt-backdrop {
+   visibility: hidden;
+}
+text {
+	font-size: 12px;
+	fill: #3d3d3d;
+}
+.plt-data-tooltip text {
+	font-size: 12px;
+}
+.plt-axis-tooltip text {
+	font-size: 10px;
+}
+.plt-axis line {
+	shape-rendering: crispedges;
+}
+.plt-plot-title {
+
+  font-size: 16.0px;
+  font-weight: bold;
+}
+.plt-axis .tick text {
+
+  font-size: 10.0px;
+}
+.plt-axis.small-tick-font .tick text {
+
+  font-size: 8.0px;
+}
+.plt-axis-title text {
+
+  font-size: 12.0px;
+}
+.plt_legend .legend-title text {
+
+  font-size: 12.0px;
+  font-weight: bold;
+}
+.plt_legend text {
+
+  font-size: 10.0px;
+}
+
+  </style>
+  <rect class="plt-backdrop" width="100%" height="100%">
+  </rect>
+  <g class="plt-plot">
+    <g transform="translate(20.0 34.0 ) ">
+      <g transform="translate(35.8 378.08974596215563 ) " class="plt-axis">
+        <g class="tick" transform="translate(141.91443125812924 0.0 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="0.0" y2="6.0">
+          </line>
+          <g transform="translate(0.0 9.0 ) rotate(-30.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.7em">
+            READ COMMITTED
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(356.4000994666002 0.0 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="0.0" y2="6.0">
+          </line>
+          <g transform="translate(0.0 9.0 ) rotate(-30.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.7em">
+            REPEATABLE READ
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(570.8857676750711 0.0 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="0.0" y2="6.0">
+          </line>
+          <g transform="translate(0.0 9.0 ) rotate(-30.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.7em">
+            SERIALIZABLE
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(141.91443125812924 0.0 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="0.0" y2="6.0">
+          </line>
+          <g transform="translate(0.0 9.0 ) rotate(-30.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.7em">
+            READ COMMITTED
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(356.4000994666002 0.0 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="0.0" y2="6.0">
+          </line>
+          <g transform="translate(0.0 9.0 ) rotate(-30.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.7em">
+            REPEATABLE READ
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(570.8857676750711 0.0 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="0.0" y2="6.0">
+          </line>
+          <g transform="translate(0.0 9.0 ) rotate(-30.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.7em">
+            SERIALIZABLE
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(141.91443125812924 0.0 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="0.0" y2="6.0">
+          </line>
+          <g transform="translate(0.0 9.0 ) rotate(-30.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.7em">
+            READ COMMITTED
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(356.4000994666002 0.0 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="0.0" y2="6.0">
+          </line>
+          <g transform="translate(0.0 9.0 ) rotate(-30.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.7em">
+            REPEATABLE READ
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(570.8857676750711 0.0 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="0.0" y2="6.0">
+          </line>
+          <g transform="translate(0.0 9.0 ) rotate(-30.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.7em">
+            SERIALIZABLE
+            </text>
+          </g>
+        </g>
+        <line x1="0.0" y1="0.0" x2="720.35" y2="0.0" stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0">
+        </line>
+      </g>
+      <g transform="translate(35.8 0.0 ) " class="plt-axis">
+        <g class="tick" transform="translate(0.0 364.7558461185736 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            1.00
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 334.3049042215936 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            1.05
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 303.8539623246137 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            1.10
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 273.4030204276337 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            1.15
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 242.9520785306538 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            1.20
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 212.5011366336738 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            1.25
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 182.0501947366938 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            1.30
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 151.59925283971393 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            1.35
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 121.14831094273393 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            1.40
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 90.69736904575404 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            1.45
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 60.246427148774046 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            1.50
+            </text>
+          </g>
+        </g>
+        <g class="tick" transform="translate(0.0 29.79548525179416 ) ">
+          <line stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0" x2="-6.0" y2="0.0">
+          </line>
+          <g transform="translate(-9.0 0.0 ) ">
+            <text style="fill:#000000;" text-anchor="end" dy="0.35em">
+            1.55
+            </text>
+          </g>
+        </g>
+        <line x1="0.0" y1="0.0" x2="0.0" y2="378.08974596215563" stroke-width="1.0" stroke="rgb(0,0,0)" stroke-opacity="1.0">
+        </line>
+      </g>
+      <g transform="translate(35.8 0.0 ) " clip-path="url(#cAwqpd)" clip-bounds-jfx="[rect (0.0, 0.0), (720.35, 378.08974596215563)]">
+        <defs>
+          <clipPath id="cAwqpd">
+            <rect x="0.0" y="0.0" width="720.35" height="378.08974596215563">
+            </rect>
+          </clipPath>
+        </defs>
+        <g>
+          
+          <g >
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="139.66714803474875" cy="308.91130179046627" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="345.26607198299286" cy="299.86467717115113" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="571.7539561541619" cy="312.27560994382793" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="148.233230289389" cy="232.12242360428354" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="375.11839826541086" cy="345.81694648723374" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="591.6702393516748" cy="275.24661664243126" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="126.92093118510617" cy="291.4896245925702" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="341.4866713991811" cy="171.4541441882527" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="580.8152570216819" cy="18.358023638146733" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="150.4352497938703" cy="257.2969771615627" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="366.59673675267874" cy="248.4418776844651" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="552.4473234190409" cy="253.78407612867124" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="144.24824671551207" cy="310.85898096887263" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="336.09903342695566" cy="346.8802998490029" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="560.1918896701634" cy="340.14384793681666" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="144.33994864162227" cy="332.3795361532973" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="338.0335565287181" cy="359.9651802218257" r="4.4" />
+            <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="574.1848329443028" cy="315.2012135123846" r="4.4" />
+          </g>
+        </g>
+      </g>
+      <g transform="translate(35.8 0.0 ) " clip-path="url(#7HFKuC)" clip-bounds-jfx="[rect (0.0, 0.0), (720.35, 378.08974596215563)]">
+        <defs>
+          <clipPath id="7HFKuC">
+            <rect x="0.0" y="0.0" width="720.35" height="378.08974596215563">
+            </rect>
+          </clipPath>
+        </defs>
+        <g>
+          
+          <g >
+            <circle fill="#fc8d62" stroke="#fc8d62" stroke-opacity="0.0" stroke-width="0.0" cx="141.91443125812924" cy="288.62849137612375" r="6.6000000000000005" />
+            <circle fill="#fc8d62" stroke="#fc8d62" stroke-opacity="0.0" stroke-width="0.0" cx="356.4000994666002" cy="294.7186797555197" r="6.6000000000000005" />
+            <circle fill="#fc8d62" stroke="#fc8d62" stroke-opacity="0.0" stroke-width="0.0" cx="570.8857676750711" cy="252.0873610997478" r="6.6000000000000005" />
+          </g>
+        </g>
+      </g>
+      <g transform="translate(35.8 0.0 ) " clip-path="url(#cnWP19)" clip-bounds-jfx="[rect (0.0, 0.0), (720.35, 378.08974596215563)]">
+        <defs>
+          <clipPath id="cnWP19">
+            <rect x="0.0" y="0.0" width="720.35" height="378.08974596215563">
+            </rect>
+          </clipPath>
+        </defs>
+        <g>
+          <path d="M141.91443125812924 288.62849137612375 L141.91443125812924 288.62849137612375 L356.4000994666002 294.7186797555197 L570.8857676750711 252.0873610997478 " fill="none" stroke-width="1.0" stroke="rgb(252,141,98)" stroke-opacity="1.0">
+          </path>
+        </g>
+      </g>
+    </g>
+    <g class="plt-plot-title" transform="translate(55.8 12.0 ) ">
+      <text dy="0.35em">
+      Тип запроса - SELECT, количество запросов - 200
+      </text>
+    </g>
+    <g class="plt-axis">
+      <g transform="translate(4.0 223.04487298107782 ) rotate(-90.0 ) " class="plt-axis-title">
+        <text text-anchor="middle" dy="0.7em">
+        Среднее время запроса, c
+        </text>
+      </g>
+    </g>
+    <g class="plt-axis">
+      <g transform="translate(415.975 496.0 ) " class="plt-axis-title">
+        <text text-anchor="middle">
+        Уровень изоляции
+        </text>
+      </g>
+    </g>
+    <g transform="translate(786.15 221.0 ) " class="plt_legend">
+      <rect x="5.0" y="5.0" height="72.0" width="203.85" fill="rgb(255,255,255)" fill-opacity="1.0">
+      </rect>
+      <g transform="translate(10.0 10.0 ) ">
+        <g class="legend-title" transform="translate(0.0 -4.0 ) ">
+          <text dy="0.7em">
+          Результаты вычислений
+          </text>
+        </g>
+        <g transform="translate(0.0 12.0 ) ">
+          <g transform="">
+            <g>
+              <rect x="1.0" y="1.0" height="21.0" width="21.0" stroke-width="1.0" stroke="rgb(255,255,255)" stroke-opacity="1.0" fill="rgb(255,255,255)" fill-opacity="1.0">
+              </rect>
+              <g transform="translate(1.0 1.0 ) ">
+                <g>
+                  
+                  <g >
+                    <circle fill="#000000" fill-opacity="0.0" stroke="#66c2a5" stroke-width="1.0" cx="10.5" cy="10.5" r="5.5" />
+                  </g>
+                </g>
+                <g>
+                  
+                  <g >
+                    <circle fill="#66c2a5" stroke="#66c2a5" stroke-opacity="0.0" stroke-width="0.0" cx="10.5" cy="10.5" r="5.5" />
+                  </g>
+                </g>
+                <g>
+                  <line x1="0.0" y1="10.5" x2="21.0" y2="10.5" stroke="rgb(102,194,165)" stroke-opacity="1.0" fill="rgb(17,142,216)" fill-opacity="1.0" stroke-width="1.0">
+                  </line>
+                </g>
+              </g>
+              <rect x="0.0" y="0.0" height="23.0" width="23.0" stroke-width="1.0" stroke="rgb(255,255,255)" stroke-opacity="1.0" fill="none">
+              </rect>
+            </g>
+            <g transform="translate(26.35 11.5 ) ">
+              <text dy="0.35em">
+              Время запроса
+              </text>
+            </g>
+          </g>
+          <g transform="translate(0.0 23.0 ) ">
+            <g>
+              <rect x="1.0" y="1.0" height="21.0" width="21.0" stroke-width="1.0" stroke="rgb(255,255,255)" stroke-opacity="1.0" fill="rgb(255,255,255)" fill-opacity="1.0">
+              </rect>
+              <g transform="translate(1.0 1.0 ) ">
+                <g>
+                  
+                  <g >
+                    <circle fill="#000000" fill-opacity="0.0" stroke="#fc8d62" stroke-width="1.0" cx="10.5" cy="10.5" r="5.5" />
+                  </g>
+                </g>
+                <g>
+                  
+                  <g >
+                    <circle fill="#fc8d62" stroke="#fc8d62" stroke-opacity="0.0" stroke-width="0.0" cx="10.5" cy="10.5" r="5.5" />
+                  </g>
+                </g>
+                <g>
+                  <line x1="0.0" y1="10.5" x2="21.0" y2="10.5" stroke="rgb(252,141,98)" stroke-opacity="1.0" fill="rgb(17,142,216)" fill-opacity="1.0" stroke-width="1.0">
+                  </line>
+                </g>
+              </g>
+              <rect x="0.0" y="0.0" height="23.0" width="23.0" stroke-width="1.0" stroke="rgb(255,255,255)" stroke-opacity="1.0" fill="none">
+              </rect>
+            </g>
+            <g transform="translate(26.35 11.5 ) ">
+              <text dy="0.35em">
+              Среднее по всем значениям
+              </text>
+            </g>
+          </g>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>
